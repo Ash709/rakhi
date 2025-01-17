@@ -138,13 +138,52 @@
                 padding: 10px;
                 margin: 10px 0;
             }
+            .sec2 img, .sec3 img {
+                max-width: 100%;
+            }
+            .box {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            footer a {
+                font-size: 20px;
+                margin: 5px;
+            }
+        }
+
+        /* Additional improvements for smaller screen sizes */
+        @media only screen and (max-width: 480px) {
+            .sec1 {
+                height: 400px;
+            }
+            .textSec1 {
+                font-size: 20px;
+            }
+            .sec2, .sec3, .text2, .text3, .text4 {
+                font-size: 14px;
+                margin: 10px;
+            }
+            .box {
+                padding: 10px;
+                margin: 10px;
+            }
+            .text10 {
+                font-size: 25px;
+            }
+            .background {
+                height: 500px;
+            }
+            .text11 {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
 <body>
     <nav>
         <div class="logo">
-            <img src="https://th.bing.com/th?id=OIP.5lf5uP-Qj2NTacVFGL9BdgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="">
+            <img src="https://th.bing.com/th?id=OIP.5lf5uP-Qj2NTacVFGL9BdgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Logo">
         </div>
         <ul>
             <li>Home</li>
@@ -165,16 +204,16 @@
     </div>
 
     <div class="sec2">
-        <img src="https://th.bing.com/th/id/OIP.NDHRwZQEVkj_BWGfBdw2TAHaD4?w=329&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+        <img src="https://th.bing.com/th/id/OIP.NDHRwZQEVkj_BWGfBdw2TAHaD4?w=329&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="History of Raksha Bandhan">
         <div class="text2">
             <h1>HISTORY OF RAKSHA BANDHAN</h1>
             <p>The history of Raksha Bandhan is steeped in mythological tales and historical anecdotes that underscore the bond of protection and care between siblings. One of the most revered stories is that of Lord Krishna and Draupadi. In the epic Mahabharata, Draupadi tore a strip of her sari and tied it around Krishna's wrist to staunch a bleeding wound. Touched by her gesture, Krishna promised to protect her always.</p>
-            <button>read more</button>
+            <button>Read More</button>
         </div>
     </div>
 
     <div class="sec3">
-        <img src="https://th.bing.com/th?id=OIF.3tntIuqJfktMx4H3JQh7%2fA&w=328&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+        <img src="https://th.bing.com/th?id=OIF.3tntIuqJfktMx4H3JQh7%2fA&w=328&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Raksha Bandhan Celebrations">
         <div class="text3">
             <h1>CELEBRATIONS</h1>
             <p>Raksha Bandhan, sisters prepare meticulously by choosing rakhis that range from traditional threads to intricately designed ones, often embellished with beads, motifs, and symbols of protection. The ceremony begins with prayers and aarti, followed by the sister tying the rakhi around her brother's wrist, symbolising her love and his commitment to protect her. Brothers, in turn, offer gifts and promise to safeguard their sisters' well-being throughout their lives. This exchange is often accompanied by familial gatherings, feasting on sweets like laddoos and barfis, and sharing joyous moments.</p>
@@ -189,7 +228,7 @@
         <div class="text5">
             <h1>Modern variations</h1>
             <p>Modern practice, especially in urban areas, the festival’s theme of protection has expanded beyond the brother-sister bond to a ritual marking mutual protection within the wider community, including family, friends, and politicians. Not unlike a friendship bracelet, the rakhi is a way of marking bonds both in and beyond the familial unit. For example, in some Indian high schools, girls sometimes designate a quasi-brother, on whom she has tied a rakhi, who protects her from other boys, though the relationship can be platonic or romantic. Preschool children, too, hold rakhi ceremonies as a form of classroom bonding in some schools.</p>
-            <img src="https://th.bing.com/th/id/OIF.8KxB80aw9RsJaPiLv5NEow?w=297&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            <img src="https://th.bing.com/th/id/OIF.8KxB80aw9RsJaPiLv5NEow?w=297&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Modern variations of Raksha Bandhan">
         </div>
     </div>
 
@@ -213,3 +252,4 @@
     </footer>
 </body>
 </html>
+
