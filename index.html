@@ -234,6 +234,22 @@
         }
     </style>
 </head>
+    <script>
+    const bar = document.querySelector('.bar');
+    const navMenu = document.querySelector('nav ul');
+
+    bar.addEventListener('click', () => {
+        navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+        navMenu.style.flexDirection = 'column'; // Stack items vertically on mobile
+        navMenu.style.backgroundColor = 'rgb(4, 4, 47)';
+        navMenu.style.position = 'absolute';
+        navMenu.style.top = '70px';  // Adjust based on nav height
+        navMenu.style.right = '20px';
+        navMenu.style.padding = '10px';
+        navMenu.style.gap = '10px';
+    });
+</script>
+
 <body>
     <nav>
         <div class="logo">
