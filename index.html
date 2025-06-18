@@ -12,6 +12,61 @@
         referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+        .product-section {
+  padding: 40px;
+  text-align: center;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  background-color: #fff;
+}
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+.product-card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: darkred;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.customize-section {
+  padding: 30px;
+  background-color: #fdf1f1;
+  text-align: center;
+}
+.customize-section form {
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+}
+.customize-section input,
+.customize-section select,
+.customize-section textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  box-sizing: border-box;
+}
+.customize-section button {
+  background-color: darkred;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
         * {
             margin: 0;
             padding: 0;
@@ -241,6 +296,45 @@
     <div class="text11">
         <p>Discover more about the festival's customs, history, and modern variations. Join the celebration of the eternal bond between brothers and sisters.</p>
     </div>
+    <!-- Rakhi Selling Section -->
+<div class="product-section">
+  <h2>Explore Our Rakhis</h2>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150.png?text=Designer+Rakhi" alt="Designer Rakhi">
+      <h3>Designer Rakhi</h3>
+      <p>₹149</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150.png?text=Likhi+Rakhi" alt="Likhi Rakhi">
+      <h3>Likhi Rakhi (Personalized)</h3>
+      <p>₹199</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<div class="customize-section">
+  <h2>Customize Your Likhi Rakhi</h2>
+  <form>
+    <label for="name">Name to Write on Rakhi:</label><br>
+    <input type="text" id="name" name="name" placeholder="e.g., Bhaiya" required><br><br>
+
+    <label for="color">Choose Color:</label><br>
+    <select id="color" name="color">
+      <option>Red</option>
+      <option>Blue</option>
+      <option>Golden</option>
+    </select><br><br>
+
+    <label for="message">Message (Optional):</label><br>
+    <textarea id="message" name="message"></textarea><br><br>
+
+    <button type="submit">Place Order</button>
+  </form>
+</div>
+
 
     <footer>
         <div>
